@@ -1,0 +1,22 @@
+{
+  "name": "redux-storage-engine-reactnativekeychain",
+  "version": "0.0.1",
+  "description": "react-native-keychain based engine for redux-storage",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "keywords": [
+    "redux",
+    "redux-storage",
+    "redux-storage-engine",
+    "react-native"
+  ],
+  "author": "Joe Leonard <joeleonard@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native-keychain": ">=0.3.2"
+  }
+}
