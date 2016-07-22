@@ -4,6 +4,9 @@ export default (key) => ({
     load() {
       return Keychain.getGenericPassword().then(credentials => {
         return JSON.parse(credentials.password) || {}
+      }).catch(error => {
+        //Likely no value previously set
+        return {}
       })
     },
     save(state) {
