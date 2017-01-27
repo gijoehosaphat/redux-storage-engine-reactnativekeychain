@@ -1,6 +1,6 @@
 {
   "name": "redux-storage-engine-reactnativekeychain",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "react-native-keychain based engine for redux-storage",
   "main": "src/index.js",
   "repository": {
